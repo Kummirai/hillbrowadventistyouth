@@ -5,7 +5,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logo img{
-  width: 60px;
+  width:80px;
   position: relative;
   right: 20px;
 }
@@ -38,4 +38,9 @@ ul a{
   font-size: 1.2rem;
   font-weight: 500;
   color: #253c57;
+}
+
+
+ul a:hover{
+  color: #a7c1df;
 }
