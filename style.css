@@ -69,7 +69,9 @@ main div{
   justify-content: center;
   min-height: 100vh;
   background-color: yellow;
+  width: 40%;
 }
+
 main h1{
   font-size: 4rem;
   color: #253c57;
