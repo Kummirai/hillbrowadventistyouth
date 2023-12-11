@@ -28,6 +28,10 @@ p{
   display: flex;
   align-items: center;
 }
+
+.logo p{
+  font-size: 1.2rem;
+}
 ul{
   display: flex;
   align-items: center;
@@ -39,7 +43,7 @@ ul li{
 ul a{
   text-decoration: none;
   padding: 18px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #253c57;
 }
@@ -128,7 +132,7 @@ section img{
   justify-content: center;
   background-color: rgba(54, 64, 79, 0.4);
   padding: 20px;
-  height: 80vh;
+  min-height: 80vh;
 }
 .ay-ideals{
   align-self: center;
@@ -151,4 +155,5 @@ section img{
   font-weight: 500;
   margin: 10px 0;
   text-align: justify;
+  font-size: 18px;
 }
