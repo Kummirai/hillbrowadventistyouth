@@ -6,12 +6,19 @@
 }
 .logo img{
   width: 60px;
+  position: relative;
+  right: 20px;
 }
 header{
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+}
+p{
+  font-size: 1.2rem;
+  color: #253c57;
+  font-weight: 500;
 }
 .logo{
   display: flex;
@@ -28,5 +35,7 @@ ul li{
 ul a{
   text-decoration: none;
   padding: 18px;
-  font-size: 18px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #253c57;
 }
