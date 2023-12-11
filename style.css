@@ -117,7 +117,8 @@ section img{
 }
 
 .myContent button{
-  padding: 20px 40px;
+  width: 100%;
+  padding: 20px 0;
   background-color: #253c57;
   color: white;
   border: none;
@@ -160,8 +161,7 @@ section img{
 }
 
 .events-calender{
-  margin-top: 40px;
-
+  margin-top: 20px;
 }
 
 .events-calender h2{
@@ -170,6 +170,14 @@ section img{
   text-align: center;
 }
 
+.events-calender h3{
+  background-color: #092a52;
+  color: white;
+  font-size: 22px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+}
 .third-section{
   display: flex;
   flex-direction: column;
