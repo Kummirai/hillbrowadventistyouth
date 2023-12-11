@@ -10,14 +10,14 @@
 }
 .logo img{
   width:80px;
-  position: relative;
-  right: 20px;
+  position: absolute;
+  left:20px;
 }
 header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 28px;
 }
 p{
   font-size: 1rem;
@@ -198,4 +198,11 @@ table td{
   padding: 20px 72px;
   margin: 5px 0;
   background-color: rgba(167, 199, 231, 0.4);
+}
+td a{
+  text-decoration: none;
+}
+
+td a:hover{
+  color: rgb(16, 10, 71);
 }
