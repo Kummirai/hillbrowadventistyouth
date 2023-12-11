@@ -6,10 +6,10 @@
   color: #253c57;
 }
 .container{
-  height: 300vh;
+  height: 700vh;
 }
 .logo img{
-  width:80px;
+  width:70px;
   position: absolute;
   left:20px;
 }
@@ -30,7 +30,7 @@ p{
 }
 
 .logo p{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 ul{
   display: flex;
@@ -42,7 +42,7 @@ ul li{
 }
 ul a{
   text-decoration: none;
-  padding: 18px;
+  padding: 10px;
   font-size: 1rem;
   font-weight: 500;
   color: #253c57;
@@ -58,7 +58,10 @@ main{
   position: relative;
   display: flex;
 }
-
+main img{
+  width: auto;
+  height: auto;
+}
 main div{
   text-align: center;
   display: flex;
@@ -181,9 +184,10 @@ section img{
 .third-section{
   display: flex;
   flex-direction: column;
-  min-height: 400vh;
+  min-height: 200vh;
   width: 100%;
   align-items: center;
+  margin-bottom: 20px;
 }
 table{
   margin-top: 20px;
@@ -205,4 +209,27 @@ td a{
 
 td a:hover{
   color: rgb(16, 10, 71);
+}
+
+.fourth-section{
+  display: flex;
+  min-height: 80vh;
+  margin: 60px 0;
+}
+
+.fourth{
+  background-color: rgba(54, 64, 79, 0.4);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myImages{
+  width: 60%;
+  background-color: yellow;
+}
+.fourth-section h3{
+  font-size: 2.4rem;
 }
