@@ -193,6 +193,7 @@ section img{
 }
 table{
   margin-top: 20px;
+  text-align: center;
 }
 table th{
   padding: 20px 72px;
@@ -216,7 +217,7 @@ td a:hover{
 .fourth-section{
   display: flex;
   min-height: 80vh;
-  margin: 60px 0;
+  margin: 60px  0 20px 0;
 }
 
 .fourth{
@@ -234,4 +235,28 @@ td a:hover{
 }
 .fourth-section h3{
   font-size: 2.4rem;
+}
+
+.bibleQuiz{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+#bible-quiz{
+  background-color: white;
+  color: #092a52;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.quiz{
+  width: 50%;
+  text-align: center;
+}
+.quiz th{
+  padding: 10px 60px;
+}
+
+.quiz td{
+  padding: 8px 60px;
 }
