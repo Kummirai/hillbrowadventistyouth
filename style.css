@@ -273,6 +273,8 @@ td a:hover{
   .container{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
   header{
     display: flex;
@@ -295,10 +297,13 @@ td a:hover{
     display: flex;
     flex-direction: column-reverse;
     min-height: fit-content;
+    width: 100%;
   }
   .main-page{
     width: 100%;
-    height: fit-content;
+    height: 100px;
+    padding: 0 10px;
+
   }
   .main-page img{
     width: 100%;
@@ -306,6 +311,16 @@ td a:hover{
   .first-section{
     display: flex;
     flex-direction: column;
-  
+  }
+  table, .quiz{
+    width: fit-content;
+  }
+  table th, table td, .quiz th, .quiz td{ 
+    padding: 2px 20px;
+    font-size: 12px;
+  }
+  .quiz th, .quiz td{ 
+    padding: 2px 8px;
+    font-size: 12px;
   }
 }
