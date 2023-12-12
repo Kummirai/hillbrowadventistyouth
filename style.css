@@ -80,7 +80,7 @@ main div{
   justify-content: center;
   min-height: 20vh;
   background-color: rgba(255, 255, 0, 0.9);
-  width: 100%;
+  width: fit-content;
   padding: 30px;
   border-radius: 10px;
 }
@@ -340,7 +340,7 @@ td a:hover{
   .main-page h1{
     font-size: 2rem;
   }
-  .main-page img{
+  main img{
     width: 100%;
   }
   .first-section{
