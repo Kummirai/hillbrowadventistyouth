@@ -260,3 +260,52 @@ td a:hover{
 .quiz td{
   padding: 8px 60px;
 }
+/* Styles for mobole divices */
+@media only screen and (max-width: 767px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p{
+    font-size: 14px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
+  li a{
+    padding: 20px;
+  }
+  main{
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: fit-content;
+  }
+  .main-page{
+    width: 100%;
+    height: fit-content;
+  }
+  .main-page img{
+    width: 100%;
+  }
+  .first-section{
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
