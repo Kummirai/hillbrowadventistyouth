@@ -1,10 +1,11 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Hillbrow Adventist Youth</title>
 </head>
 
@@ -13,17 +14,17 @@
     <header>
       <div class="logo">
         <img src="images/adventistYouthLogo.png" alt="adventist youth logo">
-        <p>Hillbrow Seventh Day Adventist Youth</p>
+        <!-- <p>Hillbrow Seventh Day Adventist Youth</p> -->
       </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#events">Calender Of Events</a></li>
-          <li><a href="#">Sabbath Afternoon Study</a></li>
-          <li><a href="#bible-quiz">Bible Quiz League</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">About Us</a></li>
-        </ul>
+      <nav class="navbar" id="myNavbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="#events">Calender Of Events</a>
+        <a href="#">Sabbath Afternoon Study</a>
+        <a href="#bible-quiz">Bible Quiz League</a>
+        <a href="#">Gallery</a>
+        <a href="#">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
       </nav>
     </header>
     <main>
@@ -98,47 +99,47 @@
           <th>Days Left</th>
         </tr>
         <tr>
-          <td>10 Feb 2024</td>
+          <td>10 Feb</td>
           <td>Dinner</td>
           <td>TBA</td>
           <td>R 100</td>
-          <td>58 Days</td>
+          <td>58</td>
         </tr>
         <tr>
-          <td>24 Feb 2024</td>
+          <td>24 Feb</td>
           <td>Bible Quiz League</td>
           <td>Hillbrow</td>
           <td>Read Habbakkuk</td>
-          <td>65 Days</td>
+          <td>65</td>
         </tr>
         <tr>
-          <td>16 March 2024</td>
+          <td>16 March</td>
           <td>Global Youth Day</td>
           <td>Hillbrow</td>
           <td>R 50</td>
-          <td>78 Days</td>
+          <td>78</td>
         </tr>
         <tr>
-          <td>17 - 23 March 2024</td>
+          <td>17 - 23 March</td>
           <td>Youth Week Of Prayer</td>
           <td>Hillbrow</td>
           <td></td>
-          <td>79 Days</td>
+          <td>79</td>
         </tr>
         <tr>
-          <td>23 March 2024</td>
+          <td>23 March</td>
           <td>Youth Day</td>
           <td>Hillbrow</td>
           <td></td>
-          <td>85 Days</td>
+          <td>85</td>
         </tr>
         <tr>
-          <td>31 March 2024</td>
+          <td>31 March</td>
           <td><a href="https://acrobranch.co.za/outdoor-activity-parks/johannesburg/#courses" target="blank">Obstacle
               Course</a></td>
           <td>Melrose</td>
           <td>R 300</td>
-          <td>85 Days</td>
+          <td>85</td>
         </tr>
       </table>
       <div class="events-calender">
@@ -153,39 +154,39 @@
           <th>Days Left</th>
         </tr>
         <tr>
-          <td>20 April 2024</td>
+          <td>20 April</td>
           <td>Bible Quiz League</td>
           <td>Hillbrow</td>
           <td>Read Hebrews</td>
-          <td>100Days</td>
+          <td>100</td>
         </tr>
         <tr>
-          <td>4 May 2024</td>
+          <td>4 May</td>
           <td>Sabbath Lunch</td>
           <td>Hillbrow</td>
           <td>R 50</td>
-          <td>115 Days</td>
+          <td>115</td>
         </tr>
         <tr>
-          <td>16 June 2024</td>
+          <td>16 June</td>
           <td>Orphanage Visitation</td>
           <td>Hillbrow</td>
           <td>R 50</td>
-          <td>220 Days</td>
+          <td>220</td>
         </tr>
         <tr>
-          <td>29 June 2024</td>
+          <td>29 June</td>
           <td>Bible Quiz League</td>
           <td>Hillbrow</td>
           <td>Read Haggai</td>
-          <td>240 Days</td>
+          <td>240</td>
         </tr>
         <tr>
-          <td>27 July 2024</td>
+          <td>27 July</td>
           <td>Game Viewing</td>
           <td>TBA</td>
           <td></td>
-          <td>249 Days</td>
+          <td>249</td>
         </tr>
       </table>
       <div class="events-calender">
@@ -204,42 +205,42 @@
           <td>Witnessing</td>
           <td>Hillbrow</td>
           <td></td>
-          <td>290Days</td>
+          <td>290</td>
         </tr>
         <tr>
-          <td>17 August 2024</td>
+          <td>17 August</td>
           <td>Bible Quiz League</td>
           <td>Hillbrow</td>
           <td>Read Hosea</td>
-          <td>295 Days</td>
+          <td>295</td>
         </tr>
         <tr>
-          <td>27 - 29 September 2024</td>
+          <td>27 - 29 September</td>
           <td>Youth Camp</td>
           <td>Warthog Inn</td>
           <td>R 750</td>
-          <td>299 Days</td>
+          <td>299</td>
         </tr>
         <tr>
-          <td>19 October 2024</td>
+          <td>19 October</td>
           <td>Bible Quiz League</td>
           <td>Hillbrow</td>
           <td>Read All</td>
-          <td>240 Days</td>
+          <td>240</td>
         </tr>
         <tr>
-          <td> November 2024</td>
+          <td> November</td>
           <td>Sports Day Preparation</td>
           <td>TBA</td>
           <td></td>
-          <td>249 Days</td>
+          <td>249</td>
         </tr>
         <tr>
-          <td> 1 December 2024</td>
+          <td> 1 December</td>
           <td>Sports Day</td>
           <td>TBA</td>
           <td>R 100</td>
-          <td>390 Days</td>
+          <td>390</td>
         </tr>
       </table>
     </section>
@@ -500,6 +501,7 @@
       </table>
     </section>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
