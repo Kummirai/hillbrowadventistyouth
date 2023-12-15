@@ -1,535 +1,523 @@
-<!DOCTYPE html>
-<html lang="en">
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mr Bedfort', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mr+Bedfort&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-  <title>Hillbrow Adventist Youth</title>
-</head>
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #253c57;
+}
+.container{
+  height: fit-content;
+}
+.logo img{
+  width:70px;
+  /* position: absolute;
+  left:20px; */
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* background-color: #253c57; */
+  margin: 20px 2px;
+}
+p{
+  font-size: 1rem;
+  color: #253c57;
 
-<body>
-  <div class="container">
-    <header>
-      <div class="logo">
-        <img src="images/adventistYouthLogo.jpg" alt="adventist youth logo">
-        <!-- <p>Hillbrow Seventh Day Adventist Youth</p> -->
-      </div>
-      <nav class="navbar" id="myNavbar">
-        <a href="index.html" class="active">Home</a>
-        <a href="#events">Calender Of Events</a>
-        <a href="#">Sabbath Afternoon Study</a>
-        <a href="#bible-quiz">Bible Quiz League</a>
-        <a href="#">Gallery</a>
-        <a href="#">About Us</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i></a>
-      </nav>
-    </header>
-    <main>
-      <div class="main-page">
-        <h1 class="title">Hillbrow <br>Adventist Youth</h1>
-        <p class="title-description">Adventist Youth Club That Caters For Young Adults Of Ages 22 - 30</p>
-      </div>
-      <img src="images/mainImage2.jpg" alt="Young Adults">
-    </main>
-    <section class="first-section">
-      <div class="myImage">
-        <img src="images/sectionImage.jpg" alt="Youth reading the bible">
-      </div>
-      <div class="myContent">
-        <h2>Welcome To The Hillbrow Adventist Youth Club</h2>
-        <p class="subtitle">The Home Of Young Adults</p>
-        <p class="description">Loving the Lord Jesus, I promise to take an active part in the youth ministry of the
-          church, doing what I can to help others and to finish the work of the Gospel in all the world.</p>
-        <button>JOIN US</button>
-      </div>
-    </section>
-    <section>
-      <div class="second-section">
-        <div class="ay-ideals">
-          <h2 class="aim">AIM - MISSION - MOTTO - PLEDGE</h2>
-        </div>
-        <div class="second-section-content">
-          <div class="ideals-description">
-            <li>Aim</li>
-            <p>The Advent message to all the world in my generation.</p>
-            <li>Mission</li>
-            <p>To lead young people into a saving relationship with Jesus Christ and help them embrace His call to
-              discipleship</p>
-            <li>Motto</li>
-            <p>The love of Christ compels me.</p>
-            <li>Pledge</li>
-            <p>Loving the Lord Jesus, I promise to take an active part in the youth ministry of the church, doing what I
-              can
-              to
-              help others and to finish the work of the Gospel in all the world.</p>
-          </div>
-          <div class="more-description">
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse doloribus adipisci repellat libero
-              mollitia
-              labore accusantium quibusdam? Modi, maiores itaque.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod voluptas officiis velit unde
-              minus
-              quis consequatur explicabo repellendus libero?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et modi incidunt iusto error, iste voluptatibus
-              omnis! Laborum mollitia dolore quas!</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi ad veritatis quod, vero tempora
-              sint! Aspernatur commodi nisi inventore.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ea! Ut quibusdam architecto
-              adipisci odit eligendi! Libero sed ratione veritatis.</li>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="third-section">
-      <div class="events-calender">
-        <h2 id="events">Calender Of Events</h2>
-      </div>
-      <!-- <section class="events">
-      <div>
-        <img itemprop="image" srcset="https://www.gcyouthministries.org/wp-content/uploads/vC4oX-SI-500x280.png" alt="">
-      </div>
-      </section>  -->
-      <div class="events-calender">
-        <h3 id="first-quarter">First Quarter</h3>
-      </div>
-      <table>
-        <tr>
-          <th>Date</th>
-          <th>Event</th>
-          <th>Venue</th>
-          <th>Budget</th>
-          <th>Days Left</th>
-        </tr>
-        <tr>
-          <td>10 Feb</td>
-          <td>Dinner</td>
-          <td>TBA</td>
-          <td>R 100</td>
-          <td>58</td>
-        </tr>
-        <tr>
-          <td>24 Feb</td>
-          <td>Bible Quiz League</td>
-          <td>Hillbrow</td>
-          <td>Read Habbakkuk</td>
-          <td>65</td>
-        </tr>
-        <tr>
-          <td>16 March</td>
-          <td>Global Youth Day</td>
-          <td>Hillbrow</td>
-          <td>R 50</td>
-          <td>78</td>
-        </tr>
-        <tr>
-          <td>17 - 23 March</td>
-          <td>Youth Week Of Prayer</td>
-          <td>Hillbrow</td>
-          <td></td>
-          <td>79</td>
-        </tr>
-        <tr>
-          <td>23 March</td>
-          <td>Youth Day</td>
-          <td>Hillbrow</td>
-          <td></td>
-          <td>85</td>
-        </tr>
-        <tr>
-          <td>31 March</td>
-          <td><a href="https://acrobranch.co.za/outdoor-activity-parks/johannesburg/#courses" target="blank">Obstacle
-              Course</a></td>
-          <td>Melrose</td>
-          <td>R 300</td>
-          <td>85</td>
-        </tr>
-      </table>
-      <div class="events-calender">
-        <h3 id="first-quarter">Mid Year</h3>
-      </div>
-      <table>
-        <tr>
-          <th>Date</th>
-          <th>Event</th>
-          <th>Venue</th>
-          <th>Budget</th>
-          <th>Days Left</th>
-        </tr>
-        <tr>
-          <td>20 April</td>
-          <td>Bible Quiz League</td>
-          <td>Hillbrow</td>
-          <td>Read Hebrews</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <td>4 May</td>
-          <td>Sabbath Lunch</td>
-          <td>Hillbrow</td>
-          <td>R 50</td>
-          <td>115</td>
-        </tr>
-        <tr>
-          <td>16 June</td>
-          <td>Orphanage Visitation</td>
-          <td>Hillbrow</td>
-          <td>R 50</td>
-          <td>220</td>
-        </tr>
-        <tr>
-          <td>29 June</td>
-          <td>Bible Quiz League</td>
-          <td>Hillbrow</td>
-          <td>Read Haggai</td>
-          <td>240</td>
-        </tr>
-        <tr>
-          <td>27 July</td>
-          <td>Game Viewing</td>
-          <td>TBA</td>
-          <td></td>
-          <td>249</td>
-        </tr>
-      </table>
-      <div class="events-calender">
-        <h3 id="first-quarter">End Of Year</h3>
-      </div>
-      <table>
-        <tr>
-          <th>Date</th>
-          <th>Event</th>
-          <th>Venue</th>
-          <th>Budget</th>
-          <th>Days Left</th>
-        </tr>
-        <tr>
-          <td>August</td>
-          <td>Witnessing</td>
-          <td>Hillbrow</td>
-          <td></td>
-          <td>290</td>
-        </tr>
-        <tr>
-          <td>17 August</td>
-          <td>Bible Quiz League</td>
-          <td>Hillbrow</td>
-          <td>Read Hosea</td>
-          <td>295</td>
-        </tr>
-        <tr>
-          <td>27 - 29 September</td>
-          <td>Youth Camp</td>
-          <td>Warthog Inn</td>
-          <td>R 750</td>
-          <td>299</td>
-        </tr>
-        <tr>
-          <td>19 October</td>
-          <td>Bible Quiz League</td>
-          <td>Hillbrow</td>
-          <td>Read All</td>
-          <td>240</td>
-        </tr>
-        <tr>
-          <td> November</td>
-          <td>Sports Day Preparation</td>
-          <td>TBA</td>
-          <td></td>
-          <td>249</td>
-        </tr>
-        <tr>
-          <td> 1 December</td>
-          <td>Sports Day</td>
-          <td>TBA</td>
-          <td>R 100</td>
-          <td>390</td>
-        </tr>
-      </table>
-    </section>
-    <section class="fourth-section">
-      <div class="fourth">
-        <h3>Lorem ipsum dolor sit.</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur.</p>
-      </div>
-    </section>
-    <section class="bibleQuiz">
-      <div class="events-calender">
-        <h3 id="bible-quiz">Bible Quiz League</h3>
-      </div>
-      <table class="quiz">
-        <tr>
-          <th>Particpant</th>
-          <th>Session 1</th>
-          <th>Session 2</th>
-          <th>Session 3</th>
-          <th>Session 4</th>
-          <th>Points</th>
-        </tr>
-        <tr>
-          <td>Talent</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Elton Ncube</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Ayanda Ndlovu</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Ayanda</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Fortune Ngulube</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Ayanda Ndebele</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Yolanda Moyo</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Gift Ndlovu</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Gugu</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Cindy</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Mitchell</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Pretty Dube</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Nomsa Nyandeni</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Dexter</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Andile</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>Makhubone Maseko</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      </table>
-    </section>
-    <footer>
-      <div class="my-footer-one">
-        <h3>Hillbrow Adventist Youth</h3>
-        <div class="footer-links">
-          <a href="#bible-quiz">Calender Events</a>
-          <a href="#">Bible Quiz</a>
-          <a href="#">Sabbath Afternoon Lessons</a>
-          <a href="#">Gallery</a>
-        </div>
-      </div>
-      <div class="address">
-        <h4>Address</h4>
-        <address>85 Banket St Hillbrow<br>
-            Johannesburg<br>
-            Gauteng<br>
-            South Africa
-          </address>
-        </div>
-    </footer>
-    <p class="copyright">Copyright Hillbrow Adventist Youth &copy; 2024</p>
-  </div>
-  <script src="scripts.js"></script>
-</body>
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
 
-</html>
+.logo p{
+  font-size: 1rem;
+}
+.navbar{
+  /* background-color: #253c57; */
+  overflow: hidden;
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  /* color: yellow; */
+  color: #092a52;
+}
+.navbar .icon {
+  display: none;
+  border-radius: 4px;
+}
+.navbar a:hover{
+  background-color: yellow;
+  color:#253c57;
+  border-radius: 4px;
+}
+
+main{
+  height: fit-content;
+  position: relative;
+  display: flex;
+}
+main img{
+  width: 70%;
+  height: 50%;
+}
+main div{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 20vh;
+  background-color: rgba(255, 255, 0, 0.9);
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+main h1{
+  font-size: 4rem;
+  color: #253c57;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+main p{
+  font-size: 1rem;
+}
+
+.first-section{
+  min-height: 100vh;
+  margin-top: 5rem;
+  position: relative;
+  margin-top: 80px;
+}
+
+.myContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: yellow;
+  height: 500px;
+  padding: 0 20px;
+  text-align: center;
+  position: absolute;
+  right: 80px;
+  top: 80px;
+}
+section img{
+  position: absolute;
+  left: 80px;
+  width: 50%;
+}
+.myContent h2{
+  font-size: 3rem;
+  color: #253c57;
+  font-weight: 500;
+}
+
+.myContent .subtitle{
+  font-size: 1.6rem;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+.myContent button{
+  width: 100%;
+  padding: 20px 0;
+  background-color: #253c57;
+  color: white;
+  border: none;
+  font-size: 1.25rem;
+  align-self: flex-start;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.second-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 20px;
+  min-height: 80vh;
+}
+.ay-ideals{
+  align-self: center;
+  margin-bottom: 10px;
+}
+.second-section-content{
+  display: flex;
+}
+.ideals-description, .more-description{
+  margin: 20px;
+  padding: 20px;
+}
+
+.ideals-description{
+  background-color: yellow;
+  
+}
+
+.ideals-description li{
+  font-weight: 500;
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.events{
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+}
+
+.events img{
+  margin: 20px 0 10px 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 0;
+}
+.events-calender{
+  margin: 20px 0;
+  width: 80%;
+}
+
+.events-calender h2{
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.events-calender h3{
+  color: #092a52;
+  font-size: 28px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.events-calender hr{
+  margin-top: 20px;
+}
+.third-section{
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+table{
+  margin-top: 20px;
+  text-align: center;
+}
+table th{
+  padding: 20px 72px;
+  background-color:#a7c1df ;
+  font-size: 18px;
+}
+
+table td{
+  padding: 20px 72px;
+  margin: 5px 0;
+  background-color: aliceblue;
+}
+td a{
+  text-decoration: none;
+}
+
+td a:hover{
+  color: rgb(16, 10, 71);
+}
+
+.fourth-section{
+  display: flex;
+  min-height: 80vh;
+  margin-top: 40px;
+  width: 100%;
+  background-color: yellow;
+  background-image: url('https://www.vhv.rs/dpng/f/426-4268860_holding-the-open-bible-up-open-bible-png.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fourth{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.fourth-section img{
+  width: 500px;
+  height: auto;
+}
+.fourth-section h3{
+  font-size: 2.4rem;
+  color: rgb(6, 4, 24);
+  
+}
+.fourth-section p{
+  color: rgb(63, 63, 9);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.bibleQuiz{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#bible-quiz{
+  background-color: white;
+  color: #092a52;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.quiz{
+  width: 50%;
+  text-align: center;
+}
+.quiz th{
+  padding: 10px 60px;
+}
+
+.quiz td{
+  padding: 8px 60px;
+}
+
+footer{
+  margin-top: 40px;
+  height: fit-content;
+  background-color: #0d2541;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 40px;
+}
+
+footer h3, footer a, footer p{
+  color: white;
+}
+
+.copyright{
+  font-size: 12px;
+  font-weight: 200;
+  padding: 10px;
+  margin-left: 10px;
+}
+footer h3{
+  margin: 10px 0;
+  font-size: 1.6rem;
+  color: yellow;
+}
+
+footer a{
+  text-decoration: none;
+  padding: 2px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.my-footer-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 16px;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+footer address{
+  margin-top: 10px;
+  color: yellow;
+  font-weight: 300;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+footer h4{
+  color: white;
+}
+/* Styles for mobole divices */
+@media only screen and (max-width: 768px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p{
+    font-size: 14px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+ header{
+    /* /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+  } */
+  .logo{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: fit-content;
+    width: 100%;
+  }
+  .main-page{
+    background-color: aliceblue;
+  }
+.second-section-content,.second-section {
+  background-color: white;
+}
+
+  .more-description{
+    background-color: #253c57;
+    border-radius: 5px;
+  }
+
+  .more-description li{
+    color: white;
+  }
+  main div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 20rem;
+    background-color: yellow;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .main-page h1{
+    font-size: 2rem;
+  }
+  main img{
+    width: 100%;
+    margin: 30px 0;
+  }
+  .first-section{
+    display: flex;
+    flex-direction: column;
+  }
+  table, .quiz{
+    width: fit-content;
+  }
+  table th, table td, .quiz th, .quiz td{ 
+    padding: 5px 2px;
+    font-size: 14px;
+  }
+  .quiz th, .quiz td{ 
+    padding: 5px 2px;
+    font-size: 14px;
+  }
+  .first-section{
+    display: none;
+  }
+  .second-section-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .third-section{
+   min-height: fit-content;
+  }
+  .fourth-section{
+    min-height: fit-content;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 380px;
+  }
+  .myImages{
+    height: 380px;
+    width: 100%;
+  }
+  .ideals-description{
+    border-radius: 4px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  footer a{
+    font-size: 14px;
+  }
+  footer  h3{
+  font-size: 1.1rem;
+  }
+  .address{
+    margin: 10px 0 0 10px;
+  }
+  address{
+    font-size: 14px;
+  }
+}
