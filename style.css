@@ -82,20 +82,21 @@ main div{
   flex-direction: column;
   justify-content: center;
   min-height: 20vh;
-  background-color: rgba(255, 255, 0, 0.9);
+  background-color: #101820FF;
   width: fit-content;
   padding: 30px;
 }
 
 main h1{
   font-size: 4rem;
-  color: #101820FF;
+  color: #777;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 main p{
   font-size: 1rem;
+  color: #777;
 }
 
 .first-section{
