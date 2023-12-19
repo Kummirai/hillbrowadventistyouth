@@ -261,7 +261,7 @@ tr:nth-child(even) {
   background-color: rgb(21, 33, 44);
 }
 
-tr:hover{
+tr:hover td{
   color: yellow;
 }
 
