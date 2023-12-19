@@ -531,7 +531,7 @@ footer h4{
     width: 100%;
   }
   table th, table td, .quiz th, .quiz td{ 
-    padding: 5px 2px;
+    padding: 8px 2px;
     font-size: 14px;
   }
   .bible-quiz-heading{
