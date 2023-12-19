@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,11 +25,10 @@
     <header>
       <div class="logo">
         <img src="images/adventistYouthLogo.jpg" alt="adventist youth logo">
-        <!-- <p>Hillbrow Seventh Day Adventist Youth</p> -->
       </div>
       <nav class="navbar" id="myNavbar">
         <a href="index.html" class="active">Home</a>
-        <a href="#events">Calender Of Events</a>
+        <a href="#events">Calendar Of Events</a>
         <a href="#">Sabbath Afternoon Study</a>
         <a href="#bible-quiz">Bible Quiz League</a>
         <a href="#">Gallery</a>
@@ -43,6 +43,7 @@
         <p class="title-description">Adventist Youth Club That Caters For Young Adults Of Ages 22 - 30</p>
       </div>
       <img src="images/mainImage2.jpg" alt="Young Adults">
+      <!-- <img src="images/globalYouthDay.png" alt="myImage"> -->
     </main>
     <section class="first-section">
       <div class="myImage">
@@ -95,10 +96,11 @@
     </section>
     <section class="third-section">
       <section class="events">
-        <img src="images/globalYouthDay.png" alt="myImage">
+        <img id="desktop"src="images/globalYouthDay.png" alt="myImage">
+        <img id="mobile"src="images/gyd.png" alt="myImage">
       </section>
       <div class="events-calender">
-        <h2 id="events">Calender Of Events</h2>
+        <h2 id="events">Calendar Of Events</h2>
       </div>
       <table>
         <tr>
@@ -112,7 +114,7 @@
           <td>10 Feb</td>
           <td>Dinner</td>
           <td>TBA</td>
-          <td>R 100</td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
@@ -126,7 +128,7 @@
           <td>16 March</td>
           <td>Global Youth Day</td>
           <td>Hillbrow</td>
-          <td>R 50</td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
@@ -148,7 +150,7 @@
           <td><a href="https://acrobranch.co.za/outdoor-activity-parks/johannesburg/#courses" target="blank">Obstacle
               Course</a></td>
           <td>Melrose</td>
-          <td>R 300</td>
+          <td></td>
           <td></td>
         </tr>
       </table>
@@ -175,14 +177,14 @@
           <td>4 May</td>
           <td>Sabbath Lunch</td>
           <td>Hillbrow</td>
-          <td>R 50</td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
           <td>16 June</td>
           <td>Orphanage Visitation</td>
           <td>Hillbrow</td>
-          <td>R 50</td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
@@ -230,7 +232,7 @@
           <td>27 - 29 September</td>
           <td>Youth Camp</td>
           <td>Warthog Inn</td>
-          <td>R 750</td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
@@ -251,11 +253,25 @@
           <td> 1 December</td>
           <td>Sports Day</td>
           <td>TBA</td>
-          <td>R 100</td>
+          <td></td>
           <td></td>
         </tr>
       </table>
     </section>
+    <section class="bible-quiz-heading">
+      <div class="events-calender">
+        <h3 id="bible-quiz">Bible Quiz League</h3>
+        <hr>
+      </div>
+    </section>
+    <div class="myOtherImage">
+      <img src="images/teens-young-adults.jpg" alt="young adults">
+      <div class="myOtherImageHeading">
+        <h2>Study To Show</h2>
+        <h2>Thy Self</h2>
+        <h2>Approved</h2>
+      </div>
+    </div>
     <section class="fourth-section">
       <div class="fourth">
         <!-- <h3>Study To Show Thy Self Approved</h3>
@@ -263,12 +279,9 @@
       </div>
     </section>
     <section class="bibleQuiz">
-      <div class="events-calender">
-        <h3 id="bible-quiz">Bible Quiz League</h3>
-        <hr>
-      </div>
       <table class="quiz">
         <tr>
+          <th>No.</th>
           <th>Particpant</th>
           <th>Session 1</th>
           <th>Session 2</th>
@@ -277,6 +290,7 @@
           <th>Points</th>
         </tr>
         <tr>
+          <td>1</td>
           <td>Talent</td>
           <td>0</td>
           <td>0</td>
@@ -285,6 +299,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>2</td>
           <td>Elton Ncube</td>
           <td>0</td>
           <td>0</td>
@@ -293,6 +308,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>3</td>
           <td>Ayanda Ndlovu</td>
           <td>0</td>
           <td>0</td>
@@ -301,6 +317,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>4</td>
           <td>Ayanda</td>
           <td>0</td>
           <td>0</td>
@@ -309,6 +326,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>5</td>
           <td>Fortune Ngulube</td>
           <td>0</td>
           <td>0</td>
@@ -317,6 +335,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>6</td>
           <td>Ayanda Ndebele</td>
           <td>0</td>
           <td>0</td>
@@ -325,6 +344,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>7</td>
           <td>Yolanda Moyo</td>
           <td>0</td>
           <td>0</td>
@@ -333,6 +353,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>8</td>
           <td>Gift Ndlovu</td>
           <td>0</td>
           <td>0</td>
@@ -341,6 +362,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>9</td>
           <td>Gugu</td>
           <td>0</td>
           <td>0</td>
@@ -349,6 +371,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>10</td>
           <td>Cindy</td>
           <td>0</td>
           <td>0</td>
@@ -357,6 +380,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>11</td>
           <td>Mitchell</td>
           <td>0</td>
           <td>0</td>
@@ -365,6 +389,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>12</td>
           <td>Pretty Dube</td>
           <td>0</td>
           <td>0</td>
@@ -373,6 +398,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>13</td>
           <td>Nomsa Nyandeni</td>
           <td>0</td>
           <td>0</td>
@@ -381,6 +407,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>14</td>
           <td>Dexter</td>
           <td>0</td>
           <td>0</td>
@@ -389,7 +416,8 @@
           <td>0</td>
         </tr>
         <tr>
-          <td>Andile</td>
+          <td>15</td>
+          <td>Andile Ndebele</td>
           <td>0</td>
           <td>0</td>
           <td>0</td>
@@ -397,6 +425,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>16</td>
           <td>Makhubone Maseko</td>
           <td>0</td>
           <td>0</td>
@@ -405,6 +434,79 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>17</td>
+          <td>Monalisa Lisa</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Clemencia Ndlovu</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>Dumo Maphosa</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Charmaine Moyo</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>Xolani Ncube</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>Bhekizulu Mpala</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>Grace Mguni</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>Lenny Mdu</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>25</td>
           <td>New Member</td>
           <td>0</td>
           <td>0</td>
@@ -413,6 +515,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>26</td>
           <td>New Member</td>
           <td>0</td>
           <td>0</td>
@@ -421,6 +524,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>27</td>
           <td>New Member</td>
           <td>0</td>
           <td>0</td>
@@ -429,6 +533,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>28</td>
           <td>New Member</td>
           <td>0</td>
           <td>0</td>
@@ -437,6 +542,7 @@
           <td>0</td>
         </tr>
         <tr>
+          <td>29</td>
           <td>New Member</td>
           <td>0</td>
           <td>0</td>
@@ -444,63 +550,8 @@
           <td>0</td>
           <td>0</td>
         </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>New Member</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
+         <tr>
+          <td>30</td>
           <td>New Member</td>
           <td>0</td>
           <td>0</td>
@@ -514,20 +565,21 @@
       <div class="my-footer-one">
         <h3>Hillbrow Adventist Youth</h3>
         <div class="footer-links">
-          <a href="#bible-quiz">Calender Events</a>
+          <a href="#">Calendar Events</a>
           <a href="#">Bible Quiz</a>
           <a href="#">Sabbath Afternoon Lessons</a>
           <a href="#">Gallery</a>
-          <a href="#">Global Youth Day</a>
+          <a href="https://www.gcyouthministries.org/events-and-projects/global-youth-day-gyd/">Global Youth Day</a>
           <a href="#">Youth Week Of Prayer</a>
-          <a href="#">Obstacle Course</a>
-          <a href="#">Youth Camp</a>
-          <a href="#">Youth Sports Day</a>
+          <a href="https://acrobranch.co.za/outdoor-activity-parks/johannesburg/ target="blank">Obstacle Course</a>
+          <a href="https://www.warthoginn.co.za/activities.html" target="blank">Youth Camp</a>
+          <a href="<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0bRJig38MsAFa1YLrjggmeB5puP5jCWxhB1c4tvzHRqFFbn8mqB4qGnffDxcNxAGCl%26id%3D100091465431429&show_text=true&width=500" width="500" height="562" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>Youth Sports Day</a>
         </div>
       </div>
       <div class="address">
         <h4>Address</h4>
-        <address>85 Banket St Hillbrow<br>
+        <address>
+          85 Banket St Hillbrow<br>
           Johannesburg<br>
           Gauteng<br>
           South Africa
