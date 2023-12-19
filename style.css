@@ -253,6 +253,18 @@ table{
   border-collapse: collapse;
 }
 
+tr:nth-child(odd) {
+  background-color: #101820FF;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(21, 33, 44);
+}
+
+tr:hover{
+  color: yellow;
+}
+
 table th{
   padding: 20px 72px;
   background-color:#101820FF;
@@ -263,7 +275,6 @@ table th{
 table td{
   padding: 20px 72px;
   margin: 5px 0;
-  background-color: #101820FF;
   color: #777;
 }
 td a{
