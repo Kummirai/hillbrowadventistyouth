@@ -52,9 +52,10 @@ p{
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   /* color: yellow; */
   color: #101820FF;
+  font-weight: 400;
 }
 .navbar .icon {
   display: none;
@@ -139,7 +140,7 @@ section img{
 .myContent button{
   width: 100%;
   padding: 20px 0;
-  background-color: #3c373e;
+  background-color:#101820FF;
   color: white;
   border: none;
   font-size: 1.25rem;
@@ -152,13 +153,17 @@ section img{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #FCF6F5FF;
+  background-color: #101820FF;
   padding: 20px;
   min-height: 80vh;
+  margin-bottom: 40px;
 }
 .ay-ideals{
   align-self: center;
   margin-bottom: 10px;
+}
+.ay-ideals h2{
+  color: #FCF6F5FF;
 }
 .second-section-content{
   display: flex;
@@ -168,9 +173,12 @@ section img{
   padding: 20px;
 }
 
+.more-description li{
+  color: #777;
+  padding: 10px;
+}
 .ideals-description{
   background-color: yellow;
-  
 }
 
 .ideals-description li{
@@ -196,7 +204,8 @@ section img{
 }
 
 .third-section{
-  background-color: #3c373e;
+  background-color: yellow;
+  padding: 20px;
 }
 #events{
   font-size: 32px;
@@ -205,7 +214,7 @@ section img{
   display: none;
 }
 .events-calender{
-  padding: 40px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,7 +228,7 @@ section img{
 }
 
 .events-calender h3{
-  color: #fff;
+  color:#101820FF;
   font-size: 28px;
   margin-top: 20px;
   text-align: center;
@@ -228,6 +237,7 @@ section img{
 
 .events-calender hr{
   margin-top: 20px;
+  border-top: 2px solid #fff;
 }
 .third-section{
   display: flex;
@@ -240,11 +250,12 @@ section img{
 table{
   margin-top: 20px;
   text-align: center;
+  border-collapse: collapse;
 }
 
 table th{
   padding: 20px 72px;
-  background-color:#3c373e;
+  background-color:#101820FF;
   font-size: 18px;
   color: white;
 }
@@ -252,15 +263,11 @@ table th{
 table td{
   padding: 20px 72px;
   margin: 5px 0;
-  background-color: #3c373e;
+  background-color: #101820FF;
   color: #777;
 }
 td a{
   text-decoration: none;
-}
-
-td a:hover{
-  color: rgb(16, 10, 71);
 }
 
 .fourth-section{
@@ -350,7 +357,7 @@ td a:hover{
 footer{
   margin-top: 40px;
   height: fit-content;
-  background-color: #0d2541;
+  background-color: #101820FF;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
