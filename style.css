@@ -451,7 +451,9 @@ footer h4{
     float: right;
     display: block;
   }
-
+  .ay-ideals h2{
+    color: #101820FF;
+  }
   main{
     display: flex;
     flex-direction: column-reverse;
