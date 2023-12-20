@@ -317,30 +317,10 @@ td a{
   margin-bottom: 10px;
   font-weight: 500;
 }
-.bible-quiz-heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.myOtherImage img{
+  width: 100%;
   margin-bottom: 20px;
 }
-.myOtherImage{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: aliceblue;
-}
-.myOtherImageHeading{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.myOtherImage h2{
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 500;
-}
-
 .bibleQuiz{
   display: flex;
   flex-direction: column;
