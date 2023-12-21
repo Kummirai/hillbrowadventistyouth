@@ -587,7 +587,9 @@ footer h4{
 .second-section-content,.second-section {
   background-color: white;
 }
-
+hr{
+  margin: 10px 0;
+}
 .ay-ideals h2{
   font-size: 1.4rem;
 }
