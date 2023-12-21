@@ -572,6 +572,7 @@ footer h4{
   }
   .gyd{
     display: block;
+    margin: 0;
   }
   
   main{
@@ -582,6 +583,7 @@ footer h4{
   }
   .main-page{
     background-color: #101820FF;
+  
   }
 .second-section-content,.second-section {
   background-color: white;
