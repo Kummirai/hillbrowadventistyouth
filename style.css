@@ -5,12 +5,17 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #3e373c;
+}
+body{
+  background-color: #fcfcfc;
+  font-family: 'Open Sans', sans-serif;
 }
 .container{
   height: fit-content;
@@ -112,7 +117,6 @@ main p{
   align-items: center;
   justify-content: center;
   width: 50%;
-  /* background-color: yellow; */
   background-color: rgb(235, 232, 224);
   height: 500px;
   padding: 0 20px;
@@ -205,6 +209,55 @@ section img{
   left: 0;
 }
 
+.event-header {
+  text-align:center;
+  padding: 1em;
+}
+
+.event-header h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.event-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px 0 rgba(0,0,0,0.14);
+  margin-bottom: 1em;
+}
+
+.event-desc {
+  text-align: center;
+}
+
+.event-date {
+  text-align:center;
+  border-right: 1px dashed #ccc;
+  margin-bottom: 1em;
+}
+
+.event-date h1 {
+  font-size: 6em;
+  margin: 0 auto;
+  font-weight: 900;
+
+}
+
+.event-date span {
+  font-size: 18px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: 30px;
+    width: 30px;
+    opacity: 1;
+    background: #111;
+    height: 30px;
+    border-radius: 5px;
+}
 .third-section{
   /* background-color: yellow; */
   padding: 20px 0;
@@ -244,10 +297,11 @@ section img{
 .third-section{
   display: flex;
   flex-direction: column;
-  min-height: 200vh;
+  min-height: fit-content;
   width: 100%;
   align-items: center;
   margin-bottom: 20px;
+  font-family: 'Lato', sans-serif
 }
 table{
   width: 100%;
@@ -312,7 +366,7 @@ td a{
 .fourth-section h3{
   font-size: 2.4rem;
   color: rgb(6, 4, 24);
-  
+
 }
 .fourth-section p{
   color: rgb(63, 63, 9);
@@ -578,7 +632,7 @@ footer h4{
   table, .quiz{
     width: 100%;
   }
-  table th, table td, .quiz th, .quiz td{ 
+  table th, table td, .quiz th, .quiz td{
     padding: 8px 2px;
     font-size: 14px;
   }
@@ -613,7 +667,7 @@ footer h4{
   padding: 20px;
 }
 
-  .quiz th, .quiz td{ 
+  .quiz th, .quiz td{
     padding: 5px 2px;
     font-size: 14px;
   }
