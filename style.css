@@ -439,7 +439,7 @@ td a{
 .studyLessons div{
   padding: 15px 30px;
   border-radius: 8px;
-  background-color: yellow;
+  background-color: ;
 }
 
 .studyLessons h3{
@@ -474,7 +474,7 @@ td a{
 footer{
   margin-top: 40px;
   height: fit-content;
-  background-color: #101820FF;
+  background-color: rgb(75, 82, 90);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
