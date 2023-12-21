@@ -81,6 +81,11 @@ main img{
   width: 70%;
   height: 50%;
 }
+
+.gyd{
+  display: none;
+}
+
 main div{
   text-align: center;
   display: flex;
@@ -562,6 +567,13 @@ footer h4{
   .ay-ideals h2{
     color: #101820FF;
   }
+  .mainImg{
+    display: none;
+  }
+  .gyd{
+    display: block;
+  }
+  
   main{
     display: flex;
     flex-direction: column-reverse;
@@ -575,7 +587,11 @@ footer h4{
   background-color: white;
 }
 
-  .more-description{
+.ay-ideals h2{
+  font-size: 1.4rem;
+}
+
+.more-description{
     background-color: #101820FF;
     border-radius: 5px;
   }
