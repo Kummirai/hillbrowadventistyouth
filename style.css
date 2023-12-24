@@ -474,7 +474,7 @@ td a{
 footer{
   margin-top: 40px;
   height: fit-content;
-  background-color: rgb(75, 82, 90);
+  background-color: rgb(235, 232, 224);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -483,7 +483,7 @@ footer{
 }
 
 footer h3, footer a, footer p{
-  color: white;
+  color:rgb(75, 82, 90);
 }
 
 .copyright{
@@ -495,10 +495,11 @@ footer h3, footer a, footer p{
 footer h3{
   margin: 10px 0;
   font-size: 1.6rem;
-  color: yellow;
+  color:rgb(75, 82, 90);
 }
 
 footer a{
+  color: rgb(75, 82, 90);
   text-decoration: none;
   padding: 2px;
   font-weight: 400;
@@ -524,14 +525,14 @@ footer a:hover{
 
 footer address{
   margin-top: 10px;
-  color: yellow;
+  color: rgb(75, 82, 90);
   font-weight: 300;
   margin-right: 20px;
   font-size: 14px;
 }
 
 footer h4{
-  color: white;
+  color: rgb(75, 82, 90);
 }
 /* Styles for mobole divices */
 @media only screen and (max-width: 768px){
