@@ -26,16 +26,16 @@ hr{
 }
 .logo img{
   width:70px;
-  /* position: absolute;
-  left:20px; */
+  position: absolute;
+  left:20px;
 }
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  /* background-color: #253c57; */
   margin: 20px 2px;
+  width: 100%;
 }
 p{
   font-size: 1rem;
