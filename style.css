@@ -570,6 +570,7 @@ footer h4{
     justify-content: center;
     font-family: 'Lato', sans-serif;
     margin: 0 5px;
+    position: relative;
   }
   .third-section{
    min-height: fit-content;
