@@ -115,9 +115,6 @@ main p{
 
 .first-section{
   min-height: 100vh;
-  margin-top: 5rem;
-  position: relative;
-  margin-top: 80px;
 }
 
 .myContent{
@@ -130,13 +127,8 @@ main p{
   height: 500px;
   padding: 0 20px;
   text-align: center;
-  position: absolute;
-  right: 80px;
-  top: 80px;
 }
 section img{
-  position: absolute;
-  left: 80px;
   width: 50%;
 }
 .myContent h2{
@@ -158,11 +150,8 @@ section img{
   color: white;
   border: none;
   font-size: 1.25rem;
-  align-self: flex-start;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
+
 .second-section{
   display: flex;
   flex-direction: column;
@@ -204,18 +193,11 @@ section img{
   color: rgb(75, 82, 90);
 }
 
-.events{
-  min-height: 60vh;
-  width: 100%;
+.container{
   display: flex;
-}
-
-.events img{
-  margin: 20px 0 10px 0;
-  width: 100%;
-  height: auto;
-  position: relative;
-  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .event-header {
@@ -267,41 +249,20 @@ section img{
     height: 30px;
     border-radius: 5px;
 }
+
 .third-section{
-  /* background-color: yellow; */
-  padding: 20px 0;
-}
-#events{
-  font-size: 32px;
-}
-.events #mobile{
-  display: none;
-}
-.events-calender{
-  padding: 20px;
   display: flex;
+  min-height: fit-content;
   align-items: center;
   justify-content: center;
+  font-family: 'Lato', sans-serif;
+  margin: 0 100px;
 }
-.third-section{
-  display: flex;
-  flex-direction: column;
-  min-height: fit-content;
-  width: 100%;
-  align-items: center;
-  margin-bottom: 20px;
-  font-family: 'Lato', sans-serif
-}
+
 .fourth-section{
   display: flex;
   min-height: 80vh;
-  margin-top: 40px;
   width: 100%;
-  background-color: yellow;
-  background-image: url('https://www.vhv.rs/dpng/f/426-4268860_holding-the-open-bible-up-open-bible-png.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .fourth{
@@ -336,6 +297,8 @@ section img{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 20px;
 }
 .studyLessons{
   height: 100vh;
@@ -598,6 +561,15 @@ footer h4{
   .second-section-content{
     display: flex;
     flex-direction: column;
+  }
+
+  .third-section{
+    display: flex;
+    min-height: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0 5px;
   }
   .third-section{
    min-height: fit-content;
