@@ -161,7 +161,7 @@ section img{
   justify-content: center;
   background-color: rgb(235, 232, 224);
   padding: 20px;
-  min-height: 80vh;
+  min-height: fit-content;
   margin-bottom: 40px;
 }
 .ay-ideals{
@@ -282,19 +282,6 @@ section img{
   list-style-type: square;
   padding: 3px;
 }
-#premarital{
-  grid-column: 4 / 7;
-  grid-row:2 / 6;
-  background-color: rgb(75, 82, 90);
-}
-
-#premarital li{
-  color: rgb(165, 160, 160);
-}
-
-#premarital h3{
-  color: rgb(236, 232, 231);
-}
 .studyLessons div{
   padding: 15px 30px;
   background-color: rgb(235, 232, 224);
@@ -330,11 +317,11 @@ footer h3, footer a, footer p{
 footer h3{
   margin: 10px 0;
   font-size: 1.6rem;
-  color:rgb(75, 82, 90);
+  color:#101820FF;
 }
 
 footer a{
-  color: rgb(75, 82, 90);
+  color: #101820FF;
   text-decoration: none;
   padding: 2px;
   font-weight: 400;
@@ -360,14 +347,14 @@ footer a:hover{
 
 footer address{
   margin-top: 10px;
-  color: rgb(75, 82, 90);
+  color: #101820FF;
   font-weight: 300;
   margin-right: 20px;
   font-size: 14px;
 }
 
 footer h4{
-  color: rgb(75, 82, 90);
+  color: #101820FF;
 }
 /* Styles for mobole divices */
 @media only screen and (max-width: 768px){
@@ -531,11 +518,19 @@ footer h4{
   .first-section{
     display: none;
   }
+
+.second-section{
+  height: fit-content;
+}
   .second-section-content{
     display: flex;
     flex-direction: column;
   }
-
+  .studyLessons div{
+    padding: 15px 30px;
+    background-color: rgb(235, 232, 224);
+    width: 100%;
+  }
   .third-section{
     display: flex;
     min-height: fit-content;
