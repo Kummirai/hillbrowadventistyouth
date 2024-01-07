@@ -354,6 +354,14 @@ footer address{
 footer h4{
   color: rgb(235, 232, 224);
 }
+
+.event-header h1{
+  font-size: 1.3rem;
+}
+
+.event-date h1{
+  font-size: 4rem;
+}
 /* Styles for mobole divices */
 @media only screen and (max-width: 768px){
   *{
