@@ -606,7 +606,7 @@ footer h4{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  /* }
   /*Keep thhe images on the window without scrolling too  the side*/
   #slider{
     overflow: hidden;
@@ -653,5 +653,5 @@ footer h4{
     100%{
       left: -400%;
     }
-  }
+  } */
 }
