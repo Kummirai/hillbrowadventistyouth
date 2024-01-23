@@ -110,7 +110,16 @@ main p{
   font-size: 1rem;
   color: #101820FF;
 }
+#bible-quiz{
+  height: 200vh;
+  margin-bottom: 20px;
+  width: 70%;
+}
 
+object{
+  width: 70%;
+  height: 100%;
+}
 .first-section{
   min-height: fit-content;
   display: flex;
@@ -582,6 +591,12 @@ footer h4{
     display: block;
     text-align: left;
     font-size: 14px;
+  }
+
+  #bible-quiz{
+    height: 100vh;
+    margin-bottom: 20px;
+    width: 100%;
   }
 
   footer{
