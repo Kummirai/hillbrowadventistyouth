@@ -549,6 +549,7 @@ footer h4{
     background-color: #CED8E9;
     width: 100%;
     margin: 10px 5px;
+    border-radius: 4px;
   }
   .third-section{
     display: flex;
